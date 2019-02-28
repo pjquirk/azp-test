@@ -1,22 +1,8 @@
-pr:
-  branches:
-    include:
-      - master
-      - users/*
-  paths:
-    include:
-      - java/*
-      - helm/*
-
 trigger:
-  branches:
-    include:
-      - master
-      - users/*
-  paths:
-    include:
-      - java/*
-      - helm/*
+- master
+
+pr:
+- master
 
 pool: Default
 
